@@ -25,3 +25,6 @@ CREATE TABLE subscriptions (
     FOREIGN KEY `fk_streaming` (product_id)
         REFERENCES subscribers (id)
 );
+
+
+INSERT INTO subscribers (name, email) VALUES ('Patrick', 'patrick@gmail.com')
