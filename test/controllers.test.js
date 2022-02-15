@@ -46,7 +46,6 @@ describe('Controllers', () => {
                 })
             })
 
-
             describe('Quando a tabela `subscribers` tiver dados!', () => {
                 const req = {};
                 const res = {};
